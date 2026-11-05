@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<main>
+        <p id="message"></p>
+		<h1>Список завдань</h1>
+        
+        <div class="main-contanier">
+            
+            <div class="image_contanier"><img src="https://play-lh.googleusercontent.com/lqcOIqa8abFxqtvs-uBdT855V3JeMo_El_GEUsfhFur2fPweDv8laAOpO_bgfD2597rd5-jcVyVcDJrSheRtbQ" width="400" height="400" alt="Monk"></div>
+            
+            <div class="content-contanier">
+                <p>Введіть нове завдання:</p>
+                <input type="text" id="taskInput" placeholder="Введіть завдання">
+                <button type="button" id="addTaskButton">Додати завдання</button>
+                <button type="button" id="deleteAllCompletedTasksButton">Видалити всі виконані завдання</button>
+    
+                <div class="list-contanier">
+                    <ul id = "dinamicList"></ul>
+                    <ul id="taskList">
+                        <li>Всього завдань: <span id="allTasks">0</span></li>
+                        <li>Виконано завдань: <span id="completedTasks">0</span></li>
+                        <li>Залишилось завдань: <span id="remainingTasks">0</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+
+        
+
+		<script src="script2.js"></script>
+	</main>
+</body>
+</html>
+		

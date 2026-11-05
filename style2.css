@@ -1,0 +1,88 @@
+body {
+font-family: 'Arial';
+  background-color: #707070;
+  color: #000000;
+
+}
+
+h1{
+  text-align: left;
+  margin: 10px 550px;
+}
+
+img{
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+p{
+  float: center;
+  display: block;
+  width: fit-content;
+  
+  
+}
+
+input{
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+button#addTaskButton{
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+button#addTaskButton:hover{
+  background-color: #c2c2c2;
+}
+
+button#deleteAllCompletedTasksButton{
+  color:#000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer; 
+}
+button#deleteAllCompletedTasksButton:hover{
+    background-color: #c2c2c2;
+  }
+
+div.main-contanier{
+  display: flex;
+  gap: 30px;
+}
+
+div.list-contanier{
+  display: flex;
+  gap: 30px;
+}
+
+.checkbox{
+  accent-color: #00972d;
+}
+
+.deleteButton{
+  background-color: #ff0000;
+  border: None;
+  border-radius: 10px;
+}
+.deleteButton:hover{
+  background-color: #9e0000;
+  cursor: pointer;
+}
+
+p#message{
+  color: #ca8a00;
+  font-weight: bold;
+  margin: 10px 550px;
+}
